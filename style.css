@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------------Card----------------------------------*/
+
+.card-container{
+    background-color: hsl(0, 0%, 12%);
+    height: 550px;
+    width: 350px;
+    margin: 0 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/*-------------------------Card Content-------------------------------------------*/
+
+.img-avatar{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.para-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-container h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.card-container .state{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card-container .state:hover{
+    color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.card-container .text{
+    color: hsl(0, 1%, 68%);
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.link-flex-container{
+  margin: 0 10px;
+}
+
+.link-flex-container .link-github{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.link-flex-container .link-github:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.link-flex-container .link-frontend{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.link-flex-container .link-frontend:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.link-flex-container .link-linkedin{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.link-flex-container .link-linkedin:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.link-flex-container .link-twitter{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.link-flex-container .link-twitter:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.link-flex-container .link-instagram{
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.link-flex-container .link-instagram:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+/*------------------------BreakPoint-----------------------------------------*/
+
+@media screen and (max-width:380px){
+    .card-container{
+        height: 500px;
+        width: 300px;
+        padding: 8px;
+    }
+    .img-avatar{
+        height: 20%;
+    }
+    .card-container img{
+        width: 25%;
+    }
+    .card-container h2{
+        font-size: 15px;
+    }
+    .card-container .state{
+        font-size: 10px;
+    }
+    .card-container .text{
+        font-size: 10px;
+    }
+    .link-flex-container .link-github{
+        height: 40px;
+        margin-top: 19px;
+        font-size: 10px;
+    }
+    .link-flex-container .link-frontend{
+        height: 40px;
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .link-flex-container .link-linkedin{
+        height: 40px;
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .link-flex-container .link-twitter{
+        height: 40px;
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .link-flex-container .link-instagram{
+        height: 40px;
+        margin-top: 12px;
+        font-size: 10px;
+    }
+      
+}
